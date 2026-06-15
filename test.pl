@@ -6,7 +6,7 @@ use bytes;
 use IO::Socket;
 use strict;
 
-my @dom = ("seed","bitcoin","sipa","be");
+my @dom = ("seed","elektron-net", "org");
 
 my $run :shared = 1;
 

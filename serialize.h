@@ -2,8 +2,8 @@
 // Copyright (c) 2011 The Bitcoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file license.txt or http://www.opensource.org/licenses/mit-license.php.
-#ifndef BITCOIN_SERIALIZE_H
-#define BITCOIN_SERIALIZE_H
+#ifndef ELEKTRON_SERIALIZE_H
+#define ELEKTRON_SERIALIZE_H
 
 #include <string>
 #include <vector>
