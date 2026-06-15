@@ -1,5 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2011 The Bitcoin developers
+// Copyright (c) 2026 The Elektron Net developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file license.txt or http://www.opensource.org/licenses/mit-license.php.
 
@@ -24,7 +25,7 @@ static const char* ppszTypeName[] =
 
 unsigned short nDefaultP2Port = 0;
 
-unsigned char pchMessageStart[4] = { 0xf9, 0xbe, 0xb4, 0xd9 };
+unsigned char pchMessageStart[4] = { 0xe1, 0xec, 0x7a, 0x6e };
 
 CMessageHeader::CMessageHeader()
 {
