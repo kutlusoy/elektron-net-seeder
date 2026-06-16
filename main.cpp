@@ -465,7 +465,7 @@ extern "C" void* ThreadStats(void*) {
   return nullptr;
 }
 
-static const string mainnet_seeds[] = {"seed.elektron-net.org", "188.20.182.78:8333", "kutlusoy.dynv6.net:8333", ""};
+static const string mainnet_seeds[] = {"seed.elektron-net.org", "188.20.182.78", "kutlusoy.dynv6.net", ""};
 static const string testnet_seeds[] = {"testnet-seed1.elektron-net.org",
                                        "testnet-seed2.elektron-net.org",
                                        "testnet-seed3.elektron-net.org",
