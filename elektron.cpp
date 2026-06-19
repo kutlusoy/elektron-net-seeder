@@ -137,7 +137,7 @@ class CNode {
       // printf("%s: got %i addresses\n", ToString(you).c_str(), (int)vAddrNew.size());
       int64 now = time(NULL);
       vector<CAddress>::iterator it = vAddrNew.begin();
-      if (vAddrNew.size() > 1) {
+      if (vAddrNew.size() >= 1) {
         if (doneAfter == 0 || doneAfter > now + 1) doneAfter = now + 1;
       }
       while (it != vAddrNew.end()) {
