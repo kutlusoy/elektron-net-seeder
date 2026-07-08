@@ -1,0 +1,8 @@
+.git
+.gitignore
+README
+Dockerfile
+docker-entrypoint.sh
+*.o
+dnsseed*
+dnsstats.log
