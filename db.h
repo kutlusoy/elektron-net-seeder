@@ -12,7 +12,9 @@
 
 #define MIN_RETRY 1000
 
-#define REQUIRE_VERSION 70016
+// Elektron Net has no nodes below protocol version 70017 -- anything
+// reporting an older version isn't part of this network.
+#define REQUIRE_VERSION 70017
 
 extern int nMinimumHeight;
 static inline int GetRequireHeight(const bool testnet = fTestNet)
