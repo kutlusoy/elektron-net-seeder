@@ -39,9 +39,7 @@ RUN chmod +x /usr/local/bin/docker-entrypoint.sh
 VOLUME ["/data"]
 WORKDIR /data
 
-# 53 = DNS, published (UDP is primary; TCP is a fallback for oversized
-# responses/some resolvers). No P2P port here -- the seeder only makes
-# OUTBOUND connections to crawl peers, it never accepts inbound P2P.
+# 53 = DNS. No P2P port -- the seeder only makes outbound connections.
 EXPOSE 53/udp 53/tcp
 
 ENTRYPOINT ["docker-entrypoint.sh"]
